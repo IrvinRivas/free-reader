@@ -1,0 +1,47 @@
+[debug] [2021-04-17T20:56:56.818Z] ----------------------------------------------------------------------
+[debug] [2021-04-17T20:56:56.822Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\irvin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-17T20:56:56.822Z] CLI Version:   9.10.0
+[debug] [2021-04-17T20:56:56.822Z] Platform:      win32
+[debug] [2021-04-17T20:56:56.822Z] Node Version:  v12.18.3
+[debug] [2021-04-17T20:56:56.826Z] Time:          Sat Apr 17 2021 14:56:56 GMT-0600 (GMT-06:00)
+[debug] [2021-04-17T20:56:56.830Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-17T20:56:56.850Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-17T20:56:56.850Z] > authorizing via signed-in user (irvinvegarivas@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\irvin\develop\books-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using free-reader-web. 
+[debug] [2021-04-17T20:57:03.314Z] > refreshing access token with scopes: []
+[debug] [2021-04-17T20:57:03.314Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-17T20:57:03.574Z] <<< HTTP RESPONSE 200 {"date":"Sat, 17 Apr 2021 20:57:02 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-17T20:57:03.639Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/free-reader-web [none]
+[debug] [2021-04-17T20:57:03.924Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/free-reader-web 200
+[debug] [2021-04-17T20:57:03.924Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/free-reader-web {"projectId":"free-reader-web","projectNumber":"424746983599","displayName":"free-reader","name":"projects/free-reader-web","resources":{"hostingSite":"free-reader-web"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
