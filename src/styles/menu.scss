@@ -1,0 +1,45 @@
+@use 'vars';
+
+#menu{
+    ul{
+        height: 66vh;
+        overflow-y: scroll;
+    }
+
+    ul::-webkit-scrollbar{
+        display: none;
+    }
+    
+    li{
+        margin: 10px 0;
+    }
+}
+
+.menu-img{
+    height: 30px;
+}
+
+@media(max-width:813px){
+    #menu{
+        h1{
+            font-size: 22px;
+        }
+    }
+}
+
+@media(max-width:769px){
+    #menu{
+        h1{
+            font-size: 24px;
+        }
+    }
+}
+
+@media(max-height:769px) and (orientation: landscape){
+    #menu{
+        ul{
+            height: 52vh;
+        }
+    }
+}
+

@@ -1,0 +1,40 @@
+@use 'vars';
+
+.carrousel-content{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.carrousel-content::-webkit-scrollbar{
+    display: none;
+}
+
+.carrousel-item{
+    border: 1px solid vars.$main-gray;
+    border-radius: 5px;
+    min-height: 360px;
+    margin: 20px 20px;
+    width: 200px;
+}
+
+.carrousel-item__hero{
+    padding: 0 10px;
+}
+
+.carrousel-item__data{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrousel-item h3{
+    color: vars.$primary-color;
+    min-height: 50px;
+}
+
+.carrousel-item__img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    width: 200px;
+}

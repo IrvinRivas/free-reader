@@ -1,0 +1,25 @@
+@use 'vars';
+
+.meta-data__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meta-data__item{
+    border-radius: 20px;
+    font-size: 10px;
+    margin: 2px 5px;
+    padding: 5px;
+}
+
+.item-category{
+    background-color: vars.$main-white;
+    border: 1px solid vars.$main-red;
+    color: vars.$main-red;
+}
+
+.item-links{
+    color: vars.$primary-color;
+    cursor: pointer;
+    margin: 0 5px;
+}

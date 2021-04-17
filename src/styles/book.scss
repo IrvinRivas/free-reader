@@ -1,0 +1,62 @@
+@use 'vars';
+
+.books-meta{
+    align-items: center;
+    display: flex;
+}
+
+.book-hero{
+    display: flex;
+}
+
+.book-hero__content{
+    margin-left: 20px;
+}
+
+.download-btn{
+    align-items: center;
+    background-color: vars.$main-red;
+    border: none;
+    border-radius: 5px;
+    color: vars.$main-white;
+    cursor: pointer;
+    display: flex;
+    font-size: 3em;
+    height: 100px;
+    justify-content: center;
+    margin: 50px 0;
+    outline: none;
+    padding: 0 10px;
+}
+
+.book-download__img{
+    height: 50px;
+    margin: 0 30px;
+}
+
+@media(max-width:769px){
+    .book-hero{
+        display: block;
+    }
+    .book-hero__img{
+        width: 70vw;
+    }
+}
+
+@media(max-width:426px){
+
+    .book-hero__img{
+        width: 90vw;
+    }
+
+    
+
+    .book-hero__content{
+        margin: 0;
+    }
+
+    .books-meta{
+        display: block;
+        margin: 10px 0;
+    }
+}
