@@ -13,8 +13,10 @@
     border: none;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    height: 28px;
+    box-sizing: border-box;
+    height: 30px;
     outline: none;
+    padding-left: 10px;
 }
 
 @media(max-width:426px){

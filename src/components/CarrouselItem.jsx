@@ -5,7 +5,7 @@ const CarrouselItem = (props) => {
     return (
         <Link to={"/book/"+props.id}>
             <div className="carrousel-item">
-                <img src={props.cover} alt={props.title} className="carrousel-item__img" />
+                <img src={props.thumbnail} alt={props.title} className="carrousel-item__img" />
                 <div className="carrousel-item__hero">
                     <h3>{props.title}</h3>
                     <div className="carrousel-item__data">
