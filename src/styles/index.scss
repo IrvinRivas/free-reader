@@ -73,7 +73,7 @@ a{
 @media(max-width: 426px){
     #menu{
         background-color: white;
-/*         display: none; */
+        display: none;
         grid-column: 1/9;
         grid-row: 2/10;
         z-index: 10;
