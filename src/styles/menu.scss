@@ -2,7 +2,7 @@
 
 #menu{
     ul{
-        height: 66vh;
+        height: 86%;
         overflow-y: scroll;
     }
 
@@ -35,10 +35,10 @@
     }
 }
 
-@media(max-height:769px) and (orientation: landscape){
+@media(max-height: 400px ) and (orientation: landscape ){
     #menu{
         ul{
-            height: 52vh;
+            height: 66%;
         }
     }
 }

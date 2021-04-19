@@ -56,10 +56,13 @@ a{
 }
 
 #footer{
-    color: vars.$main-white;
+    align-items: center;
     background-color: vars.$main-white;
+    display: flex;
+    justify-content: space-between;
     grid-column: 1/-1;
     grid-row: 10/10;
+    padding: 0 20px;
 }
 .spinner{
     width: 200px;
